@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="fragments.MapFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="@dimen/margin_big"
+        android:background="@color/white"
+        android:id="@+id/transparent_area">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/search_et_shape">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/location_icon_2"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="6">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    style="@style/search_small_txt"
+                    android:text="@string/loc"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:lines="2"
+                    style="@style/search_loc_txt"
+                    android:id="@+id/curr_adress"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.google.android.gms.maps.MapView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/my_map">
+
+            </com.google.android.gms.maps.MapView>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/margin_big"
+                android:id="@+id/img"
+                android:lines="2"
+                android:text="Guide\n me"
+                style="@style/toolStyle"
+                android:background="@drawable/btn_guide_me">
+
+
+            </Button>
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>

@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="tabStyle" >
+    <item name="android:textSize" >9sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="toolStyle" >
+        <item name="android:textSize" >16sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="discover_tv_style">
+        <item name="android:textSize">@dimen/drawer_txt</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_margin">@dimen/margin_big</item>
+    </style>
+    <style name="recycler_row_small_txt">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="recycler_row_long_txt">
+    <item name="android:textSize">9sp</item>
+    <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="search_small_txt">
+        <item name="android:textColor">@color/transparent</item>
+        <item name="android:textSize">@dimen/small_txt</item>
+
+    </style>
+    <style name="search_loc_txt">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/medium_txt</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="half_curve_button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/small_txt</item>
+        <item name="android:layout_gravity">top</item>
+        <item name="android:background">@drawable/half_curved_button_shape</item>
+    </style>
+    <style name="network_recycler_green_txt">
+        <item name="android:textColor">@color/greenyBlue</item>
+        <item name="android:gravity">bottom</item>
+
+    </style>
+    <style name="network_black_txt">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/small_txt</item>
+    </style>
+    <style name="half_curved_of_network">
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:background">@drawable/half_curved_button_shape</item>
+    </style>
+    <style name="floatingActionButton">
+        <item name="android:src">@drawable/float_btn</item>
+
+    </style>
+</resources>

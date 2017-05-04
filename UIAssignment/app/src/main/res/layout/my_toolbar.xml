@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="@color/greenyBlue"
+    android:layout_height="?android:actionBarSize"
+    android:id="@+id/my_toolbar"
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+    <ImageButton
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@color/greenyBlue"
+        android:layout_height="match_parent"
+        android:id="@+id/button_first"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:theme="@style/toolStyle"
+            android:id="@+id/tool_txt"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/greenyBlue"
+            android:id="@+id/button_second"/>
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@color/greenyBlue"
+            android:layout_height="match_parent"
+            android:id="@+id/button_third"/>
+
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>
+

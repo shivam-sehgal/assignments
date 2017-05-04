@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">UIAssignment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_txt">Home</string>
+    <string name="card_txt">Card/Subscription</string>
+    <string name="supp_txt">Support</string>
+    <string name="req_txt">My Requests</string>
+    <string name="shr_txt">Share</string>
+    <string name="log_txt">Logout</string>
+    <string name="search_txt">Where would you like to connect?</string>
+    <string name="exp">Explore</string>
+    <string name="time_left"> 6d 2h left</string>
+    <string name="total_reviews"> 220Reviews</string>
+    <string name="long_txt">Lorem ipsum dolor sit amet, consectetur lorem ipsum
+dolor sit amet, consectetur lorem ipsum.</string>
+    <string name="reqest_txt">Send Request</string>
+    <string name="loc">Location</string>
+    <string name="acpt">Accept</string>
+    <string name="rjct">Reject</string>
+    <string name="adrs">1097, St. Peter Street,\n
+CA </string>
+    <string name="show">Show On Map</string>
+    <string name="eve">Evelyn</string>
+    <string name="pr">Paris</string>
+
+
+</resources>

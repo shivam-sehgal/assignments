@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawer_txt">16sp</dimen>
+    <dimen name="et_radius">56.3dp</dimen>
+    <dimen name="margin_big">5dp</dimen>
+    <dimen name="margin_very_big">40dp</dimen>
+    <dimen name="btn_radius">6.2dp</dimen>
+    <dimen name="small_txt">9sp</dimen>
+    <dimen name="medium_txt">10sp</dimen>
+    <dimen name="half_century">50dp</dimen>
+    <dimen name="curved_button">96dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+</resources>
